@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Github, Linkedin, Twitter, Mail, MapPin, Coffee, Code, Heart } from 'lucide-react';
 import { useMode } from '../hooks/useModeContext';
-import portraitImage from '../assets/portrait-african-american-athlete-having-break.jpg';
+import portraitImage from '/assets/portrait-african-american-athlete-having-break.jpg';
 
 const ProfileModal = ({ isOpen, onClose }) => {
   const { colors, mode } = useMode();
