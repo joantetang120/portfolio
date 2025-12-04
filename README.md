@@ -1,80 +1,84 @@
-# 🚀 Dual-Mode Portfolio - Developer & Ethical Hacker
+My Dual-Mode Portfolio
 
-A stunning, interactive portfolio with dual modes featuring cutting-edge animations, 3D elements, glassmorphism, and responsive design.
+A modern, interactive portfolio with two modes: Developer and Ethical Hacker. Smooth animations, 3D elements, and a responsive design make it stand out.
 
-## ✨ Features
+ Features
 
-- 🎭 **Dual Mode System**: Switch between Developer and Ethical Hacker modes
-- 🎨 **Stunning Visuals**: Glassmorphism, neon colors, and fluorescent effects
-- 🎬 **Advanced Animations**: Framer Motion, AOS, and custom CSS animations
-- 🎮 **3D Elements**: Three.js and React Three Fiber integration
-- 📱 **Fully Responsive**: Works perfectly on all screen sizes
-- 🎯 **Easter Eggs**: Hidden interactions and surprises
-- ⚡ **Performance Optimized**: Fast loading and smooth animations
+Switch between Developer and Hacker modes
 
-## 🛠️ Tech Stack
+Eye-catching animations and glassmorphism effects
 
-- **React 18** - UI Framework
-- **Vite** - Build tool
-- **TailwindCSS** - Styling
-- **Framer Motion** - Animations
-- **Three.js & React Three Fiber** - 3D Graphics
-- **Lucide React** - Icons
-- **AOS** - Scroll animations
+3D elements with Three.js
 
-## 📦 Installation
+Fully responsive for all devices
 
-1. Install dependencies:
-\`\`\`bash
+Hidden easter eggs and interactions
+
+Optimized for performance
+
+ Tech Stack
+
+React 18
+
+Vite
+
+TailwindCSS
+
+Framer Motion
+
+Three.js / React Three Fiber
+
+Lucide React
+
+AOS
+
+ Getting Started
+
+Install dependencies:
+
 npm install
-\`\`\`
 
-2. Start development server:
-\`\`\`bash
+
+Start development server:
+
 npm run dev
-\`\`\`
 
-3. Build for production:
-\`\`\`bash
+
+Build for production:
+
 npm run build
-\`\`\`
 
-4. Preview production build:
-\`\`\`bash
+
+Preview production build:
+
 npm run preview
-\`\`\`
 
-## 🎨 Customization
+ Customize
 
-Edit the content in \`src/data/\` folder to customize:
-- Personal information
-- Projects (Developer & Hacker modes)
-- Skills
-- Contact information
+Change your content in the src/data/ folder:
 
-## 📂 Project Structure
+Personal info
 
-\`\`\`
+Projects for both modes
+
+Skills and contact
+
+ Project Structure
 portfolio/
 ├── src/
 │   ├── components/      # React components
-│   ├── data/           # Content data
+│   ├── data/           # Your content
 │   ├── hooks/          # Custom hooks
 │   ├── styles/         # Global styles
 │   ├── App.jsx         # Main app component
 │   └── main.jsx        # Entry point
 ├── public/             # Static assets
 └── index.html          # HTML template
-\`\`\`
 
-## 🚀 Deployment
+ Deployment
 
-This project can be deployed to:
-- Vercel
-- Netlify
-- GitHub Pages
-- Any static hosting service
+Deploy easily to: Vercel, Netlify, GitHub Pages, or any static hosting.
 
-## 📄 License
+📄 License
 
-MIT License - Feel free to use this for your own portfolio!
+MIT License – use it freely for your own portfolio!
