@@ -41,7 +41,7 @@ const ProfileModal = ({ isOpen, onClose }) => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={onClose}
-            className="fixed inset-0 bg-black/80 backdrop-blur-md z-50 flex items-center justify-center p-4"
+            className="fixed inset-0 bg-black/80 backdrop-blur-md z-50 flex items-start md:items-center justify-center p-4 pt-10 md:pt-4 overflow-y-auto"
           >
             {/* Modal Card */}
             <motion.div
@@ -50,7 +50,7 @@ const ProfileModal = ({ isOpen, onClose }) => {
               exit={{ scale: 0.8, opacity: 0, rotateY: 180 }}
               transition={{ type: 'spring', duration: 0.6 }}
               onClick={(e) => e.stopPropagation()}
-              className="relative max-w-4xl w-full glass-strong rounded-3xl overflow-hidden"
+              className="relative max-w-4xl w-full glass-strong rounded-3xl overflow-hidden max-h-[90vh] md:max-h-[80vh] overflow-y-auto"
               style={{
                 boxShadow: `0 0 60px ${colors.primary}40, 0 0 100px ${colors.secondary}20`
               }}
@@ -77,10 +77,10 @@ const ProfileModal = ({ isOpen, onClose }) => {
                 whileHover={{ scale: 1.1, rotate: 90 }}
                 whileTap={{ scale: 0.9 }}
                 onClick={onClose}
-                className="absolute top-4 right-4 z-20 w-10 h-10 rounded-full glass flex items-center justify-center"
-                style={{ color: colors.primary }}
+                className="absolute top-3 right-3 md:top-4 md:right-4 z-20 w-11 h-11 md:w-10 md:h-10 rounded-full glass-strong flex items-center justify-center border border-white/20"
+                style={{ color: colors.primary, backgroundColor: 'rgba(0,0,0,0.6)' }}
               >
-                <X className="w-5 h-5" />
+                <X className="w-6 h-6 md:w-5 md:h-5" />
               </motion.button>
 
               {/* Content */}

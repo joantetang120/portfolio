@@ -123,7 +123,7 @@ export const content = {
           "/assets/ekose-rx/Screenshot 2025-12-04 113049.png",
         ],
         github: null,
-        live: null,
+        live: "https://ekose.horizonservicessl.net/",
         featured: true,
       },
       {
