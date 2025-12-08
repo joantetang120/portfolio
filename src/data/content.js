@@ -149,7 +149,7 @@ export const content = {
           "/assets/publicSprint/Screenshot 2025-12-02 141934.png",
         ],
         github: null,
-        live: null,
+        live: "https://publicsprint-production.up.railway.app/",
         featured: false,
       },
       {
