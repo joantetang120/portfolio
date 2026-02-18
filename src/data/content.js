@@ -138,7 +138,7 @@ export const content = {
           "api",
           "react",
           "AI integration",
-          
+
         ],
         image: "/assets/publicSprint/main.png",
         images: [
@@ -187,6 +187,117 @@ export const content = {
         live: null,
         featured: false,
       },
+      {
+        id: 7,
+        title: "Sunu Fitness Website",
+        description:
+          "A fitness website for a local gym in senegal where users can view and book training sessions.",
+        tech: ["React", "Tailwind", "AOS", "Custom CSS Grid", "postgres", "api", "local-storage", "javascript", "TypeScript", ""],
+        image: "/assets/sunuFitness/Screenshot 2026-02-18 181455.png",
+        images: [
+          "/assets/sunuFitness/Screenshot 2026-02-18 181455.png",
+          "/assets/sunuFitness/Screenshot 2026-02-18 181506.png",
+          "/assets/sunuFitness/Screenshot 2026-02-18 181530.png",
+          "/assets/sunuFitness/Screenshot 2026-02-18 181603.png",
+        ],
+        github: null,
+        live: "https://sunufitness.com/",
+        featured: false,
+      },
+
+      {
+        id: 8,
+        title: "Sunu Fitness Admin",
+        description:
+          "Admin dashboard for  the web app SUNU FITNESS where we can manage, users, subscriptions, sessions, and everything about the administration",
+        tech: ["Laravel", "Tailwind", "AOS", "blade", "Mysql", "api", "Notifications",],
+        image: "/assets/sunuFitnessAdmin/Screenshot 2026-02-18 181648.png",
+        images: [
+          "/assets/sunuFitnessAdmin/Screenshot 2026-02-18 181617.png",
+          "/assets/sunuFitnessAdmin/Screenshot 2026-02-18 181648.png",
+          "/assets/sunuFitnessAdmin/Screenshot 2026-02-18 181813.png",
+          "/assets/sunuFitnessAdmin/Screenshot 2026-02-18 181824.png",
+        ],
+        github: null,
+        live: null,
+        featured: false,
+      },
+
+      {
+        id: 9,
+        title: "Riversong Manor",
+        description:
+          "A luxury house reservation website with booking system and admin dashboard for management",
+        tech: ["Laravel", "Tailwind", "AOS", "blade", "Mysql", "api", "Notifications", 'React', 'TypeScript', 'lazyloading'],
+        image: "/assets/riversong/Screenshot 2026-02-18 181303.png",
+        images: [
+          "/assets/riversong/Screenshot 2026-02-18 181303.png",
+          "/assets/riversong/Screenshot 2026-02-18 181202.png",
+          "/assets/riversong/Screenshot 2026-02-18 181223.png",
+          "/assets/riversong/Screenshot 2026-02-18 181303.png",
+        ],
+        github: null,
+        live: "https://riversong-manor.vercel.app/",
+        featured: false,
+      },
+
+      {
+        id: 10,
+        title: "Riversong Manor Admin",
+        description:
+          "Admin dashboard for management of the Riversong Manor website",
+        tech: ["Laravel", "Tailwind", "AOS", "blade", "Mysql", "api", "Notifications", 'lazyloading'],
+        image: "/assets/riversongAdmin/Screenshot 2026-02-18 180716.png",
+        images: [
+          "/assets/riversongAdmin/Screenshot 2026-02-18 180716.png",
+          "/assets/riversongAdmin/Screenshot 2026-02-18 180728.png",
+          "/assets/riversongAdmin/Screenshot 2026-02-18 180744.png",
+          "/assets/riversongAdmin/Screenshot 2026-02-18 180758 .png",
+        ],
+        github: null,
+        live: null,
+        featured: false,
+      },
+
+
+      {
+        id: 11,
+        title: "Manageo",
+        description:
+          "Complete and complex SAAS app to help manage the employee personnel and enterprise",
+        tech: ["Laravel", "Tailwind", "AOS", "blade", "Mysql", "api", "Notifications", 'lazyloading'],
+        image: "/assets/manageo/Screenshot 2026-02-18 180330.png",
+        images: [
+          "/assets/manageo/Screenshot 2026-02-18 180330.png",
+          "/assets/manageo/Screenshot 2026-02-18 180330.png",
+          "/assets/manageo/Screenshot 2026-02-18 180449.png",
+        ],
+        github: null,
+        live: null,
+        featured: false,
+      },
+
+      {
+        id: 12,
+        title: "Myreklam",
+        description:
+          "Complete and complex SAAS app to help manage the employee personnel and enterprise",
+        tech: ["Flutter", "dart", "firebase", "api", "animations", 'figma'],
+        image: "/assets/myreklam/Screenshot 2026-02-18 182721.png",
+        images: [
+          "/assets/myreklam/Screenshot 2026-02-18 182721.png",
+          "/assets/myreklam/Screenshot 2026-02-18 182711.png",
+          "/assets/myreklam/Screenshot 2026-02-18 182651.png",
+          "/assets/myreklam/Screenshot 2026-02-18 182736.png",
+          "/assets/myreklam/Screenshot 2026-02-18 182754.png",
+        ],
+        github: null,
+        live: null,
+        featured: false,
+      },
+
+      
+
     ],
   },
 

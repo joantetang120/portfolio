@@ -8,7 +8,7 @@ export default defineConfig({
     open: true
   },
   build: {
-    outDir: 'build',  // Change output folder to "build"
-    emptyOutDir: true // Clears the folder before building
+    outDir: 'build',  
+    emptyOutDir: true 
   }
 })

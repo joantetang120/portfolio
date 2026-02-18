@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { ModeProvider } from './hooks/useModeContext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -12,10 +12,13 @@ import ScrollProgress from './components/ScrollProgress';
 import Cursor from './components/Cursor';
 import EasterEgg from './components/EasterEgg';
 import ProfileEasterEgg from './components/ProfileEasterEgg';
+import Loader from './components/Loader';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -24,9 +27,19 @@ function App() {
     });
   }, []);
 
+  const handleLoadComplete = () => {
+    setIsLoading(false);
+  };
+
   return (
     <ModeProvider>
-      <div className="relative min-h-screen animated-gradient">
+      {isLoading && <Loader onLoadComplete={handleLoadComplete} />}
+
+      {/* Easter Eggs (fixed position, rendered after load) */}
+      {!isLoading && <EasterEgg />}
+      {!isLoading && <ProfileEasterEgg />}
+      
+      <div className={`relative min-h-screen animated-gradient transition-all duration-1000 ease-out ${isLoading ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'}`}>
         {/* Custom Cursor (Desktop only) */}
         <div className="hidden lg:block">
           <Cursor />
@@ -34,10 +47,6 @@ function App() {
 
         {/* Scroll Progress Bar */}
         <ScrollProgress />
-
-        {/* Easter Eggs */}
-        <EasterEgg />
-        <ProfileEasterEgg />
 
         {/* Navigation */}
         <Navbar />
