@@ -373,7 +373,7 @@ export const content = {
       },
       {
         id: 4,
-        title: "PHP-VulnApp",
+        title: "Vulnmarket",
         description:
           "A purposely vulnerable Laravel web app with realistic medium-hard exploitation points for training pentesters and students.",
         tech: ["Laravel", "Tailwind", "SQLi", "XSS", "Auth Bypass"],
@@ -384,16 +384,24 @@ export const content = {
           "/assets/vulnmarket/photo_3_2025-12-04_11-54-27.jpg",
         ],
         featured: false,
+        live: "https://vuln-market.com/"
       },
       {
         id: 5,
-        title: "Network Segmentation ACL Lab",
+        title: "PHP vulnerable app",
         description:
-          "Simulated two interconnected LANs using DHCP with ACLs blocking specific traffic for real-world defensive configuration training.",
-        tech: ["Cisco Packet Tracer", "ACL", "DHCP", "LAN"],
+          "  A purposely vulnerable vulnerable app I created in php with several vulnerabilities like SQLi, XSS, and more.",
+        tech: ["PHP", "MySQL", "HTML", "CSS"],
         image:
-          "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800",
+          "/assets/vuln/Screenshot 2026-02-19 111000.png",
+        images: [
+          "/assets/vuln/Screenshot 2026-02-19 111000.png",
+          "/assets/vuln/Screenshot 2026-02-19 111015.png",
+          "/assets/vuln/Screenshot 2026-02-19 111323.png",
+          "/assets/vuln/Screenshot 2026-02-19 111332.png",
+        ],
         featured: false,
+        live: "https://vulnjob.42web.io/vuln-marketplace/public/index.php"
       },
       {
         id: 6,
